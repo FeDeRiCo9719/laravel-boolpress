@@ -4,10 +4,10 @@
 
 @section('content')
 
-<div class="jumbotron  bg-dark text-light"> 
+<div class="jumbotron  bg-dark  text-white"> 
     <div class="container mt-5 mb-5">
         <h1 class="display-4">Welcome to our Blog!</h1>
-        <div class="w-50 mt-4">
+        <div class="w-50 mt-4 text-white-50">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit ad nemo dicta hic architecto totam at, dolor sit amet consectetur adipisicing elit ad nemo dicta hic architecto totam at, provident asperiores provident asperiores harum, adipisci esse quae.</p>
         </div>
     </div>

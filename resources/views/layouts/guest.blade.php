@@ -51,9 +51,16 @@
             </nav>
         </header>
 
-        <main style="background-color: white;" class="mt-5">
+        <main style="background-color: white;" class="py-5">
             @yield('content')
         </main>
+
+        <footer class="bg-secondary">
+            <div class="container pt-4 pb-4">
+                <p class="m-0 text-light">© Company 2017-2021</p>
+            </div>
+        </footer>
     </div>
+    
 </body>
 </html>
