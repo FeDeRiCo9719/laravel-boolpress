@@ -23,7 +23,7 @@
     <div id="app">
         <header style="background-color: #343a40;">
     
-            <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-secondary p-3">
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-secondary px -3 py-2">
                 <a class="navbar-brand" href="#">BOOLPRESS</a>
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,10 +43,10 @@
                         </li>
                         
                     </ul>
-                    <form class="form-inline my-2 my-lg-0">
-                        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                    </form>
+                    <div>
+                        <a class="btn btn-sm btn-outline-light" href="{{route('login')}}">Sign in</a>
+                        <a class="btn btn-sm btn-outline-light ml-2" href="{{route('register')}}">Sign up</a>
+                    </div>
                 </div>
             </nav>
         </header>
