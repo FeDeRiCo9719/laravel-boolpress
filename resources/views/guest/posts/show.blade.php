@@ -16,8 +16,8 @@
 
 <div class="container pt-3">
 
-    <div class="mt-5 mb-5 pt-5">
-        <div class="w-50 container text-rigth">
+    <div class="my-5 pt-5 row justify-content-md-center">
+        <div class="text-rigth col-4">
             <h2>{{$post['title']}}</h2>
             <p class="my-4">{{$post['content']}}</p>
         

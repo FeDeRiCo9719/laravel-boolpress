@@ -20,8 +20,8 @@
                         <thead>
                             <tr>
                                 <th scope="col">#</th>
-                                <th scope="col">First</th>
-                                <th scope="col">Last</th>
+                                <th scope="col">Title</th>
+                                <th scope="col">Slug</th>
                                 <th scope="col">Actions</th>
                             </tr>
                         </thead>

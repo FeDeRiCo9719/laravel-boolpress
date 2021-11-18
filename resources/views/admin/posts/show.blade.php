@@ -16,6 +16,9 @@
                         <a href="{{route('admin.posts.index')}}">
                             <button type="button" class="btn btn-primary">Back</button>
                         </a>
+                        <a href="{{route('admin.posts.edit', $post['id'] )}}" class="ml-3">
+                            <button type="button" class="btn btn-secondary">Edit</button>
+                        </a>
                         <form action="{{route('admin.posts.destroy', $post['id'])}}" method="post" class="ml-3">
                             @csrf
                             @method('DELETE') 
